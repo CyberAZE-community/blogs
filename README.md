@@ -22,6 +22,7 @@ CyberAZE community üzvləri tərəfindən yazılmış bloqların indeksi
 ## Kernel & Exploit Development
 - [Windows mitigation-ları ilə mübarizə apararaq kernel driver exploit etmək](https://cushz.github.io/exploit-development/2026/07/31/exploiting-kernel-driver-while-fighting-with-windows-mitigations.html) - Windows 10 sistemində HEVD driverinin exploitationu zamanı SMEP və KASLR bypass metodologiyası 
 - [Kod execute dövrü bitdi?](https://medium.com/@1dont/kod-execute-dövrü-bitdi-a59aefadd228) - Windows kernel mitigationlar seriyası (1/3). DEP, SMEP, HVCI və exploit development-in təkamülü.
+- [Data dövrü](https://medium.com/@1dont/data-area-5474c28699b4) - Windows kernel mitigationlar seriyası (2/3). Data-only attack, token swap, KDP və privilege escalation.
 - [Kernel bizə inanır? (!)](https://medium.com/@1dont/kernel-bizə-inanır-c39af8f5869d) - HEVD Stack Overflow zəifliyi ilə kernelə shellcode injection. Token stealing-in avtomatlaşdırılması.
 - [Windows Kernel Data-Only Attack](https://medium.com/@1dont/windows-kernel-data-only-attack-5ac958b71345) - Kod execute etmədən privilege escalation. `_SEP_TOKEN_PRIVILEGES` manipulyasiyası, PPL bypass.
 - [BYOVD: 2 Driver, 2 Primitiv, 1 Attack Chain](https://medium.com/@1dont/byovd-2-driver-2-primitiv-1-attack-chain-e7450ba7e8cf) - CVE-2026-0828 (kill primitivi) və CVE-2025-7771 (arbitrary R/W) ilə SYSTEM-ə qədər tam attack chain.
