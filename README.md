@@ -30,6 +30,7 @@ CyberAZE community üzvləri tərəfindən yazılmış bloqların indeksi
 - [CVE-2021–30807 IOMobileFrameBuffer Out-of-Bounds Write](https://medium.com/@1dont/cve-2021-30807-iomobileframebuffer-out-of-bounds-write-34ee5ca60f6e) - iOS kernel analizi. OOB write-dan heap feng shui və tfp0-a qədər jailbreak zənciri.
 - [Secure Image Object — Part 1](https://medium.com/@1dont/secure-image-object-part-1-9ea7124de2d8) - Windows "Secure" Kernel? `securekernel.exe` və `ntoskrnl.exe`-nin birgə işləməsi. NAR/NTE strukturları və Secure Image Objectlərin reverse engineering analizi.
 - [SEH Exploitation Overflow — Vulnserver GMON](https://medium.com/@heracpp/seh-exploitation-overflow-vulnserver-gmon-e32ed0b9b0f3) - VulnServer GMON komandası üzərində SEH overflow zəifliyinin exploitationu. SEH mexanizmindən real shell alana qədər addım-addım izah.
+- [LOLModAPI](https://medium.com/@1dont/lolmodapi-d742bb739712) - MSI Dragon Center-in MODAPI.sys driverində SDDL/whitelist olmaması. IA32_LSTAR MSR overwrite ilə kernel code execution və SYSTEM-ə privilege escalation.
 
 ## Malware Analysis & Reverse Engineering
 
